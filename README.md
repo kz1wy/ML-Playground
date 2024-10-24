@@ -37,7 +37,7 @@ pip install -r req.txt
 
 ## Clone the Repository
 ```bash
-git clone https://github.com/your-username/ML-playground.git
+git clone https://github.com/kz1wy/ML-playground.git
 cd ML-playground
 ```
 ## 🤝 Contributing
