@@ -4,7 +4,11 @@ import matplotlib.pyplot as plt
 class LinearRegression:
     """_summary_
 
-    X [numpy array]: data points
+    X (Features): matrix of shape mxn (m data points, n features)
+    y (Target values): vector of shape (m, 1)
+    weights (n, 1): model weights (one per feature)
+    bias (scalar): model bias (intercept)
+    y_pred (m, 1): predicted value (output)
     """
     def __init__(self, learning_rate=0.01, n_iterations=1000):
         self.weights = None
